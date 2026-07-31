@@ -202,8 +202,7 @@ def main():
         print(f"\nErrors ({len(errors)}):")
         for e in errors[:10]:
             print(f"  - {e}")
-    print(f"\nSaved to {out_path}")
-    print(f"Latest: {latest_path}")
+    print(f"\nSaved to {latest_path}")
 
 
 if __name__ == "__main__":
